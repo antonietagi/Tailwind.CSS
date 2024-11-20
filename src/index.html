@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Tailwind CSS</title>
+</head>
+<body>
+    <body class="bg-pink-100"> 
+        
+    </div>
+
+    <div class="h-screen w-screen grid grid-cols-1 md:grid-cols-2 grid-rows-6">
+
+        <div class="relative row-span-5 md:flex justify-center items-center hidden">
+            <!-- Título da imagem -->
+            <h1 class="absolute top-0 left-1/2 transform -translate-x-1/2 text-white text-xl font-bold bg-opacity-50 bg-black p-2">Quer fazer o seu pedido? Cadastre-se</h1>
+            <img class="w-max-20" src="./brigcoloridoo.png" alt="Imagem de exemplo">
+        </div>
+
+        <!--Formulário-->
+        <div class="row-span-5 flex flex-col justify-center items-center grid-cols-1">
+            <form class="w-80 bg-white w-80 flex-col justify-center items-center border rounded-sm px-10 py-4 gap-5">
+                <!--Logo-->
+                <img class="w-52" src="./Brigadeiro Doces PNG -.jpeg"><br><br>
+                <input class="bg-slate-50 h-9 w-full pl-3 border rounded-sm" placeholder="Número de telefone, e-mail">
+                <input class="bg-slate-50 h-9 w-full pl-3 border rounded-sm" placeholder="Senha"><br><br>
+
+                <button class="bg-pink-500 w-full rounded-md h-8 text-white hover:bg-pink-300">Entrar</button><br><br>
+
+
+                <a class="text-blue-250 font-bold cursor-pointer">Logar com o google</a><br>
+                <a class="text-blue-300 text-sm cursor-pointer">Esqueci a minha senha</a>
+            </form>
+
+            <div>
+                <p>Não tem conta? Cadastre-se</p>
+            </div>
+        </div>
+
+        <!--rod-->
+        
+        <footer>
+            <small><i>Copyright &copy; 2024 Giovanna Antonieta </i></small>
+        </footer>
+    
+    </div>
+</body>
+</html>
